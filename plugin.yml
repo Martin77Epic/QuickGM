@@ -1,0 +1,31 @@
+name: QuickGM
+version: 1.0.0
+api: [1.0.0]
+main: QuickGM\QuickGM
+load: POSTWORLD
+#Commands
+commands:
+  gmc:
+    description: "Change gamemode to creative"
+    usage: "/gmc"
+    permission: m77e.gmc
+  gms:
+      description: "Change gamemode to survival"
+      usage: "/gms"
+      permission: m77e.gms
+  gmsp:
+      description: "Change gamemode to spectater"
+      usage: "/gmsp"
+      permission: m77e.gmsp
+permissions:
+  m77e.gmc:
+    description: "Allows the user to run gmc command"
+    default: op
+  m77e.gms:
+      description: "Allows the user to run gms command"
+      default: op
+  m77e.gmsp:
+      description: "Allows the user to run gmsp command"
+      default: op
+
+
